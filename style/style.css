@@ -1,11 +1,11 @@
 /* 
 FONTS
-font-family: 'Big Shoulders Display', sans-serif;
-font-family: 'DM Serif Display', serif;
+LOGO font-family: 'Yellowtail', cursive;
+TITLE font-family: 'Big Shoulders Display', sans-serif;
+NAME font-family: 'DM Serif Display', serif;
 font-family: 'Mate', serif;
 font-family: 'Patrick Hand', cursive;
-font-family: 'Smooch Sans', sans-serif;
-font-family: 'Yellowtail', cursive;
+GRAY font-family: 'Smooch Sans', sans-serif;
   -  */
 
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=DM+Serif+Display&family=Mate&family=Patrick+Hand&family=Smooch+Sans:wght@100;200;300;400;500&family=Yellowtail&display=swap');
@@ -28,12 +28,14 @@ header {
 header h1 {
   font-family: 'Yellowtail', cursive;
   font-size: xx-large;
+  font-weight: 900;
   display: inline;
 }
 
 header p {
   font-family: 'Smooch Sans', sans-serif;
   font-size: small;
+  font-weight: 100;
 }
 
 header section, ul, li{
@@ -55,11 +57,101 @@ header section {
   margin-bottom: 30px;
   background-image: url('/assets/hr-img.png');
   background-repeat: repeat;
-  height: 15px;
+  height: 13px;
 }
 
 main h1 {
   font-family: 'Big Shoulders Display', sans-serif;
   font-size: xx-large;
   font-weight: 900;
+}
+
+.date {
+  font-family: 'Smooch Sans', sans-serif;
+  font-size: small;
+  font-weight: 100;
+  display: inline;
+}
+
+#instructions {
+  font-family: 'Mate', serif;
+  
+}
+
+main figure {
+  float: right;
+}
+
+#hero {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+
+main section p {
+    color: #71696c;
+  font-size: 19px;
+  text-indent: 25px;
+  margin-bottom: 30px;
+  line-height: 25px;
+}
+
+#list {
+  position: absolute;
+  z-index: -1;
+  height: 305px;
+}
+
+#ingredients {
+
+  color: #806a4c;
+  font-family: 'Patrick Hand', cursive;
+  font-size: x-large;
+}
+
+#first-list {
+margin-top: 40px;
+float: left;
+margin-left: 70px;
+margin-right: 48px;
+}
+
+#first-list li {
+display: list-item;
+margin-bottom: 7px;
+}
+
+#second-list {
+  margin-top: 40px;
+  margin-right: 90px;
+  margin-left: 30px;
+  float: right;
+}
+
+#second-list li {
+  display: list-item;
+  margin-bottom: 7px;
+} 
+
+
+
+#bar2 {
+  margin-top: 380px;
+  margin-bottom: 20px;
+  background-image: url('/assets/hr-img.png');
+  background-repeat: repeat;
+  height: 13px;
+}
+
+#vanessa {
+  float: left;
+}
+
+footer button {
+  float: right;
+}
+
+hr {
+  margin-top: 120px;
 }
