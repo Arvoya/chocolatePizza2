@@ -1,0 +1,65 @@
+/* 
+FONTS
+font-family: 'Big Shoulders Display', sans-serif;
+font-family: 'DM Serif Display', serif;
+font-family: 'Mate', serif;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Smooch Sans', sans-serif;
+font-family: 'Yellowtail', cursive;
+  -  */
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=DM+Serif+Display&family=Mate&family=Patrick+Hand&family=Smooch+Sans:wght@100;200;300;400;500&family=Yellowtail&display=swap');
+
+body {
+  max-width: 900px;
+  margin: auto;
+}
+
+#logo {
+  float: left;  
+  padding-right: 8px;
+}
+
+header {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+header h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: xx-large;
+  display: inline;
+}
+
+header p {
+  font-family: 'Smooch Sans', sans-serif;
+  font-size: small;
+}
+
+header section, ul, li{
+  display: inline;
+}
+
+header section {
+  margin-left: auto;
+  margin-top: 10px;
+  float: right;
+}
+
+#rss\&mail {
+  margin-left: 5px;
+}
+
+#bar {
+  margin-top: 25px;
+  margin-bottom: 30px;
+  background-image: url('/assets/hr-img.png');
+  background-repeat: repeat;
+  height: 15px;
+}
+
+main h1 {
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-size: xx-large;
+  font-weight: 900;
+}
