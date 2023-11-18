@@ -55,7 +55,7 @@ header section {
 #bar {
   margin-top: 25px;
   margin-bottom: 30px;
-  background-image: url('/assets/hr-img.png');
+  background-image: url('assets/hr-img.png');
   background-repeat: repeat;
   height: 13px;
 }
@@ -141,7 +141,7 @@ margin-bottom: 7px;
 #bar2 {
   margin-top: 380px;
   margin-bottom: 20px;
-  background-image: url('/assets/hr-img.png');
+  background-image: url('assets/hr-img.png');
   background-repeat: repeat;
   height: 13px;
 }
