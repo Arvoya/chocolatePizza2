@@ -64,11 +64,13 @@ main h1 {
   font-family: 'Big Shoulders Display', sans-serif;
   font-size: xx-large;
   font-weight: 900;
+  margin-bottom: 3px;
 }
 
 .date {
   font-family: 'Smooch Sans', sans-serif;
-  font-size: small;
+  font-size: medium;
+  color: gray;
   font-weight: 100;
   display: inline;
 }
@@ -146,12 +148,63 @@ margin-bottom: 7px;
 
 #vanessa {
   float: left;
+  margin-right: 10px;
+}
+
+footer h2 {
+  font-family: 'DM Serif Display', serif;
+  font-size: larger;
+  margin-bottom: 15px;
+}
+
+#nameSection, h2{
+  display: inline;
+  color: rgb(68, 59, 59);
+}
+
+#nameSection p {
+  font-family: 'Mate', serif;
+  margin-right: 250px;
+  line-height: 25px;
+  margin-left: 81px;
+  margin-top: 15px;
+  color: #71696c;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 75px;
 }
 
 footer button {
   float: right;
+  border-style: none;
+  background-color: #d8623b;
+  height: 50px;
+  width: 200px;
+  font-family: 'Smooch Sans', sans-serif;
+  font-size: x-large;
+  color: white;
+  font-weight: 100;
+}
+
+#small-logo {
+  position: absolute;
+  margin-left: 427.5px;
+  width: 35px;
+  background-color: white;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-bottom: 995px;
 }
 
 hr {
-  margin-top: 120px;
+  margin-top: 92px;
+}
+
+#copyright {
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(141, 138, 138);
+  margin-top: 55px;
+  line-height: 20px;
+  margin-bottom: 50px;
 }
