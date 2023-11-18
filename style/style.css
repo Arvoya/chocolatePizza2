@@ -1,0 +1,210 @@
+/* 
+FONTS
+LOGO font-family: 'Yellowtail', cursive;
+TITLE font-family: 'Big Shoulders Display', sans-serif;
+NAME font-family: 'DM Serif Display', serif;
+font-family: 'Mate', serif;
+font-family: 'Patrick Hand', cursive;
+GRAY font-family: 'Smooch Sans', sans-serif;
+  -  */
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=DM+Serif+Display&family=Mate&family=Patrick+Hand&family=Smooch+Sans:wght@100;200;300;400;500&family=Yellowtail&display=swap');
+
+body {
+  max-width: 900px;
+  margin: auto;
+}
+
+#logo {
+  float: left;  
+  padding-right: 8px;
+}
+
+header {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+header h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: xx-large;
+  font-weight: 900;
+  display: inline;
+}
+
+header p {
+  font-family: 'Smooch Sans', sans-serif;
+  font-size: small;
+  font-weight: 100;
+}
+
+header section, ul, li{
+  display: inline;
+}
+
+header section {
+  margin-left: auto;
+  margin-top: 10px;
+  float: right;
+}
+
+#rss\&mail {
+  margin-left: 5px;
+}
+
+#bar {
+  margin-top: 25px;
+  margin-bottom: 30px;
+  background-image: url('/assets/hr-img.png');
+  background-repeat: repeat;
+  height: 13px;
+}
+
+main h1 {
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-size: xx-large;
+  font-weight: 900;
+  margin-bottom: 3px;
+}
+
+.date {
+  font-family: 'Smooch Sans', sans-serif;
+  font-size: medium;
+  color: gray;
+  font-weight: 100;
+  display: inline;
+}
+
+#instructions {
+  font-family: 'Mate', serif;
+  
+}
+
+main figure {
+  float: right;
+}
+
+#hero {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+
+main section p {
+    color: #71696c;
+  font-size: 19px;
+  text-indent: 25px;
+  margin-bottom: 30px;
+  line-height: 25px;
+}
+
+#list {
+  position: absolute;
+  z-index: -1;
+  height: 305px;
+}
+
+#ingredients {
+
+  color: #806a4c;
+  font-family: 'Patrick Hand', cursive;
+  font-size: x-large;
+}
+
+#first-list {
+margin-top: 40px;
+float: left;
+margin-left: 70px;
+margin-right: 48px;
+}
+
+#first-list li {
+display: list-item;
+margin-bottom: 7px;
+}
+
+#second-list {
+  margin-top: 40px;
+  margin-right: 90px;
+  margin-left: 30px;
+  float: right;
+}
+
+#second-list li {
+  display: list-item;
+  margin-bottom: 7px;
+} 
+
+
+
+#bar2 {
+  margin-top: 380px;
+  margin-bottom: 20px;
+  background-image: url('/assets/hr-img.png');
+  background-repeat: repeat;
+  height: 13px;
+}
+
+#vanessa {
+  float: left;
+  margin-right: 10px;
+}
+
+footer h2 {
+  font-family: 'DM Serif Display', serif;
+  font-size: larger;
+  margin-bottom: 15px;
+}
+
+#nameSection, h2{
+  display: inline;
+  color: rgb(68, 59, 59);
+}
+
+#nameSection p {
+  font-family: 'Mate', serif;
+  margin-right: 250px;
+  line-height: 25px;
+  margin-left: 81px;
+  margin-top: 15px;
+  color: #71696c;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 75px;
+}
+
+footer button {
+  float: right;
+  border-style: none;
+  background-color: #d8623b;
+  height: 50px;
+  width: 200px;
+  font-family: 'Smooch Sans', sans-serif;
+  font-size: x-large;
+  color: white;
+  font-weight: 100;
+}
+
+#small-logo {
+  position: absolute;
+  margin-left: 427.5px;
+  width: 35px;
+  background-color: white;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-bottom: 995px;
+}
+
+hr {
+  margin-top: 92px;
+}
+
+#copyright {
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(141, 138, 138);
+  margin-top: 55px;
+  line-height: 20px;
+  margin-bottom: 50px;
+}
